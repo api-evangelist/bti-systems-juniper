@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: probed
+source: HTTPS probe of /.well-known/ paths, 2026-07-20
+host: https://btisystems.com
+note: The historical BTI Systems corporate domain no longer resolves, so no /.well-known/
+  discovery surface exists for this company. No documents were retrieved and none were saved.
+  This is a valid empty result for an acquired company.
+documents:
+- path: /.well-known/security.txt
+  status: null
+  error: dns-resolution-failed
+- path: /.well-known/openid-configuration
+  status: null
+  error: dns-resolution-failed
+- path: /.well-known/oauth-authorization-server
+  status: null
+  error: dns-resolution-failed
+- path: /.well-known/api-catalog
+  status: null
+  error: dns-resolution-failed
+- path: /.well-known/ai-plugin.json
+  status: null
+  error: dns-resolution-failed

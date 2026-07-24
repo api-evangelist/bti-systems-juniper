@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: probed
+source: dig + HTTPS probe, 2026-07-20
+note: BTI Systems has no independent operating domain following the 2016 Juniper Networks
+  acquisition. The historical corporate domain btisystems.com no longer resolves. The similarly
+  named bti-systems.com and bti.net are unrelated third-party businesses and are deliberately
+  NOT attributed to this company. Corporate domain security for the acquiring entity is probed
+  in the juniper-networks profile, not here.
+hosts:
+- host: btisystems.com
+  role: historical-corporate-domain
+  dns_a_records: []
+  resolves: false
+  https: false
+  http_status: null
+  tls_version: null
+  hsts: null
+domains:
+- domain: btisystems.com
+  resolves: false
+  dnssec: null
+  caa: null
+  spf: null
+  dmarc: null
+  dmarc_policy: null
+excluded_hosts:
+- host: bti-systems.com
+  reason: unrelated IT services company, name collision only
+- host: bti.net
+  reason: unrelated third-party domain, name collision only

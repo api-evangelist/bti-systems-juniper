@@ -1,22 +1,83 @@
 aid: bti-systems-juniper
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bti-systems-juniper.png
 name: BTI Systems (Juniper)
-description: 'BTI Systems (Juniper) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'BTI Systems was an Ottawa, Ontario based supplier of cloud and metro packet-optical
+  networking systems and software, best known for the BTI 7800 Series Packet Optical Transport
+  platform, the BTI 800 Series, and the proNX family of management software (proNX Service Manager
+  and proNX Optical Director). Juniper Networks acquired the remaining ownership interest in BTI
+  Systems for approximately $25.8 million in cash, closing the acquisition on April 1, 2016, to
+  accelerate open and automated packet-optical transport and SDN/NFV capabilities. BTI no longer
+  operates as an independent company and publishes no independent developer portal or public API;
+  the BTI Series and proNX product lines are documented and supported under Juniper Networks, whose
+  proNX Optical Director exposes REST APIs northbound for OSS/BSS integration with NETCONF and
+  telemetry southbound. This profile is retained as an acquired-company record in the API Evangelist
+  network, with the live vendor surface tracked in the juniper-networks profile.'
 url: https://raw.githubusercontent.com/api-evangelist/bti-systems-juniper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bain-capital-ventures
+x-status: acquired
+x-acquired-by: Juniper Networks
+x-acquired-date: '2016-04-01'
+x-successor: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/apis.yml
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-independent-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Ai Infrastructure
+- Networking
+- Optical Networking
+- Packet Optical Transport
+- Telecommunications
+- Network Management
+- SDN
+- NFV
+- Acquired
 apis: []
+common:
+- type: Documentation
+  name: BTI Series Technical Documentation
+  url: https://www.juniper.net/documentation/en_US/release-independent/bti/information-products/pathway-pages/bti-series/index.html
+- type: APIReference
+  name: proNX Optical Director Documentation (northbound REST APIs)
+  url: https://www.juniper.net/documentation/product/us/en/pronx-optical-director/
+- type: Support
+  name: Juniper Support Portal
+  url: https://supportportal.juniper.net/
+- type: Lifecycle
+  name: Company and Product Lifecycle
+  url: lifecycle/bti-systems-juniper-lifecycle.yml
+- type: Deprecation
+  name: BTI Series End of Life Dates and Milestones
+  url: https://support.juniper.net/support/eol/product/bti_series/
+- type: DomainSecurity
+  name: Domain Security Probe
+  url: security/bti-systems-juniper-domain-security.yml
+- type: WellKnown
+  name: Well-Known Discovery Probe
+  url: well-known/bti-systems-juniper-well-known.yml
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/bti-systems-juniper-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://support.juniper.net/support/eol/product/bti_series/
+company_status:
+  status: acquired
+  acquired_by: Juniper Networks
+  acquired_date: '2016-04-01'
+  consideration: USD 25.8 million cash for the remaining ownership interest
+  evidence:
+  - https://www.sec.gov/Archives/edgar/data/0001043604/000104360417000045/jnpr-10k20161231.htm
+  - https://obj.ca/bti-systems-acquired-by-juniper-networks/
+  successor_profile: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/apis.yml
+  independent_developer_portal: false
+  independent_domain_resolves: false
+deprecation:
+  policy_url: https://support.juniper.net/support/eol/
+  product_eol_url: https://support.juniper.net/support/eol/product/bti_series/
+  software_eol_url: https://support.juniper.net/support/eol/software/bti/
+  note: Juniper publishes end-of-life and end-of-support milestone dates for BTI Series hardware
+    and BTI software (proNX) through its standard EOL milestone program. BTI-branded product
+    lines are in end-of-support wind-down under Juniper.
+  sunset_header: null
+versioning:
+  scheme: product-release
+  note: proNX Service Manager and proNX Optical Director were released as numbered product
+    versions (for example proNX Service Manager 7.0 and 7.8) rather than a versioned public
+    web API. Documentation is organized per product release.
+  docs: https://www.juniper.net/documentation/en_US/release-independent/bti/information-products/pathway-pages/bti-series/index.html
+status_page: null
+sla: null
+deprecated_operations: []

@@ -1,0 +1,43 @@
+# BTI Systems (Juniper)
+
+> BTI Systems was an Ottawa, Ontario based supplier of cloud and metro packet-optical networking systems and software — the BTI 7800 Series Packet Optical Transport platform, the BTI 800 Series, and the proNX management software family (proNX Service Manager, proNX Optical Director). Juniper Networks completed its acquisition of BTI Systems on April 1, 2016. BTI no longer operates independently and publishes no independent developer portal or public API. Its product documentation and support live under Juniper Networks.
+
+## Status
+
+- Company status: acquired by Juniper Networks, closed 2016-04-01
+- Historical corporate domain btisystems.com no longer resolves
+- No independent developer portal, no public API, no OpenAPI/AsyncAPI, no SDKs, no MCP server
+- Successor profile: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/apis.yml
+
+## Products
+
+- BTI 7800 Series Packet Optical Transport platform (10G/40G/100G metro packet optical)
+- BTI 800 Series
+- proNX Service Manager (PSM) — Java client/server optical network management, SNMP and NETCONF southbound
+- proNX Optical Director — optical domain controller with REST APIs northbound for OSS/BSS integration and NETCONF/telemetry southbound
+
+## Docs
+
+- [BTI Series Technical Documentation](https://www.juniper.net/documentation/en_US/release-independent/bti/information-products/pathway-pages/bti-series/index.html)
+- [proNX Optical Director Documentation](https://www.juniper.net/documentation/product/us/en/pronx-optical-director/)
+- [proNX 7.0 Documentation](https://www.juniper.net/documentation/en_US/bti-pronx7.0/information-products/pathway-pages/index.html)
+- [proNX Service Manager Installation and Administration Guide](https://www.juniper.net/documentation/en_US/bti-series/psm7.8/information-products/pathway-pages/pronx-service-manager-ins-admin-guide.html)
+- [BTI Series Archives](https://www.juniper.net/documentation/us/en/internal/archives/topics/concept/bti-series-archives.html)
+- [Juniper Support Portal](https://supportportal.juniper.net/)
+
+## Lifecycle
+
+- [Juniper End of Life Products and Milestones](https://support.juniper.net/support/eol/)
+- [BTI Series Hardware Dates and Milestones](https://support.juniper.net/support/eol/product/bti_series/)
+- [BTI Software Dates and Milestones](https://support.juniper.net/support/eol/software/bti/)
+
+## Artifacts
+
+- [Lifecycle](lifecycle/bti-systems-juniper-lifecycle.yml)
+- [Domain security probe](security/bti-systems-juniper-domain-security.yml)
+- [Well-known discovery probe](well-known/bti-systems-juniper-well-known.yml)
+
+## Notes for agents
+
+- Do not confuse this company with bti-systems.com (an unrelated IT services firm) or bti.net. Neither is BTI Systems the packet-optical vendor.
+- proNX Optical Director's northbound REST API is an on-premises product interface reached at a customer-installed controller host; there is no public, vendor-hosted base URL to call.
