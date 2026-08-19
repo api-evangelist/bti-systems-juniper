@@ -34,7 +34,7 @@ x-acquired-date: '2016-04-01'
 x-successor: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/apis.yml
 x-tier: stub
 x-tier-reason: acquired-no-independent-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
